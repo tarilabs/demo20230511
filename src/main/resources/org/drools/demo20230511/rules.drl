@@ -1,0 +1,8 @@
+package org.drools.demo20230511;
+
+rule R1
+when
+  String()
+then
+  insertLogical(1);
+end
